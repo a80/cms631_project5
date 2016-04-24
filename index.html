@@ -10,10 +10,12 @@
 </head>
 
 <body>
-	<h1>See how your state stacks up in the Boston Marathon!</h1> 
+	<h1 id="mainHeading">See how your state stacks up in the Boston Marathon!</h1> 
 	
+	<img src="BAA.png" height="380" id="logo">
+
 	<div id = "formEntryDiv">
-		<h1>Enter your 2-letter state abbreviation:</h1>
+		<h1 id="formEntryHeading">Enter your 2-letter state abbreviation:</h1>
 
 		<form> 
 			<input type="text" name="state" id="stateFormField">
@@ -24,11 +26,16 @@
 
 	<div id="mapDiv">
 		<!-- TODO: put d3 map here. --> 
-		<h1> MAP SHOULD GO HERE </h1> 
+		<h1> MAP SHOULD GO HERE </h1>
+
+		<!-- TODO: remove this button upon insertion of d3 map -->   
+		<button class="btn btn-default" type="submit" id="dummyButton">(REMOVE) See results. </button>
 	</div>
 
 	<div id="resultsDiv">
 		<!-- TODO: Results should be shown upon conclusion of the race. --> 
+		<h1 id="resultsHeading">Your state is doing well.</h1> 
+		<p id="resultsText">Here's how you can make it even better.</p> 
 	</div> 
 </body>
 

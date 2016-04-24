@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
 	$('#mapDiv').hide(); 
+	$('#resultsDiv').hide(); 
 
 	$('#submitStateButton').click(function() {
 		var state = $('#stateFormField').val(); 
@@ -10,7 +11,13 @@ $(document).ready(function() {
 		//TODO: feed state into the map
 
 		$('#formEntryDiv').hide(); 
-		$('#mapDiv').show(); 
+		$('#logo').hide(); 
+		$('#mapDiv').show();
 	}); 
+
+	$('#dummyButton').click(function() {
+		$('#mapDiv').hide();
+		$('#resultsDiv').show(); 
+	});
 
 }); 
