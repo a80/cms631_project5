@@ -9,26 +9,12 @@
 	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="polymaps.min.js"></script>
 
-	<script type="text/javascript" src="logic.js"></script>
 	<script type="text/javascript" src="routes.js"></script>
 	
 	<link href="styles.css" rel="stylesheet"> 
 </head>
 
 <body>
-	<h1 id="mainHeading">See how your state stacks up in the Boston Marathon!</h1> 
-	
-	<img src="BAA.png" height="380" id="logo">
-
-	<div id = "formEntryDiv">
-		<h1 id="formEntryHeading">Enter your 2-letter state abbreviation:</h1>
-
-		<form> 
-			<input type="text" name="state" id="stateFormField">
-		</form> 
-
-		<button class="btn btn-default" type="submit" id="submitStateButton">Go!</button>
-	</div> 
 
 	<div id="mapDiv">
 		<!-- TODO: put d3 map here. --> 
@@ -39,11 +25,6 @@
 		<button class="btn btn-default" type="submit" id="dummyButton">(REMOVE) See results. </button>
 	</div>
 
-	<div id="resultsDiv">
-		<!-- TODO: Results should be shown upon conclusion of the race. --> 
-		<h1 id="resultsHeading">Your state is doing well.</h1> 
-		<p id="resultsText">Here's how you can make it even better.</p> 
-	</div> 
 </body>
 
 </html>
