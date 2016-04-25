@@ -31,6 +31,11 @@ p {
 	margin-right: 50px;
 }
 
+#mapDiv {
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
 body {
 	background: #0066CC;
 }

@@ -8,20 +8,15 @@ $(document).ready(function() {
 		var state = $('#stateFormField').val(); 
 		$('#formEntryDiv').hide(); 
 		$('#logo').hide(); 
-		$('#mapDiv').show();
+		$('#mapDiv').show({ done: loadMap });
 	}); 
 
-	$('#dummyButton').click(function() {
-		$('#mapDiv').hide();
-		$('#resultsDiv').show(); 
-	});
-
-	loadMap();
+	// loadMap();
 
 	function loadMap() {
 
 		var width = 600, height = 400;
-		var svg = d3.select("#mapContainer").append("svg")
+		var svg = d3.select("#mapDiv").append("svg")
 			.attr("width", width).attr("height", height)
 			.attr("id", "map");
 
@@ -78,22 +73,26 @@ $(document).ready(function() {
 						return path.getPointAtLength(0).y;
 					});
 
-				// // ANIMATE PLAYERS
-				// var i = d3.interpolate(0, pathLength);
-				// var pathScale = d3.scale.linear().domain([0, marathonLength]).range([0, pathLength]);
-				
-				// var interpolateX = function(t) {
-				// 	return path.getPointAtLength(i(t.avgOfficial)).x;
-				// };
-				// var interpolateY = function(t) {
-				// 	return path.getPointAtLength(i(t.avgOfficial)).y;
-				// }
+				// ANIMATE PLAYERS
+				var avgFields = ["avg5k", "avg10k", "avg20k", "avg25k", "avg30k", "avg35k", "avg40k", "avgOfficial"];
+				var avgDistances = [5000, 10000, 20000, 25000, 30000, 35000, 40000, 42195];
 
-				// svg.selectAll(".players")
-				// 	.transition().duration(function(d, i) { return d.avgOfficial; })
-				// 	.ease("linear")
-				// 	.attrTween("cx", interpolateX)
-				// 	.attrTween("cy", interpolateY);
+				svg.selectAll(".players")
+					.transition()
+					.duration(function(d, i) { return d.avgOfficial * 10; })
+					.ease("linear")
+					.attrTween("cx", function() {
+						var i = d3.interpolate(0, pathLength);
+						return function(t) {
+							return path.getPointAtLength(i(t)).x;
+						}
+					})
+					.attrTween("cy", function() {
+						var i = d3.interpolate(0, pathLength);
+						return function(t) {
+							return path.getPointAtLength(i(t)).y;
+						}
+					});
 
 			});
 
