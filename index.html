@@ -9,9 +9,7 @@
 	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="polymaps.min.js"></script>
 
-	<script type="text/javascript" src="logic.js"></script>
-	<script type="text/javascript" src="routes.js"></script>
-	
+	<script type="text/javascript" src="logic.js"></script>	
 	<link href="styles.css" rel="stylesheet"> 
 </head>
 
@@ -33,8 +31,6 @@
 	<div id="mapDiv">
 		<!-- TODO: put d3 map here. --> 
 		<h1> MAP SHOULD GO HERE </h1>
-
-		<div id="mapContainer"></div>
 		<!-- TODO: remove this button upon insertion of d3 map -->   
 		<button class="btn btn-default" type="submit" id="dummyButton">(REMOVE) See results. </button>
 	</div>
@@ -44,6 +40,8 @@
 		<h1 id="resultsHeading">Your state is doing well.</h1> 
 		<p id="resultsText">Here's how you can make it even better.</p> 
 	</div> 
+
+	<div id="mapContainer"></div>
 </body>
 
 </html>
