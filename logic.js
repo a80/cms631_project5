@@ -20,7 +20,7 @@ $(document).ready(function() {
 			.attr("width", width).attr("height", height)
 			.attr("id", "map");
 
-		var colorScale = d3.scale.category20();
+		var colorScale = d3.scale.category20b();
 
 		d3.xml("data/marathon_route.gpx", "application/xml", function(xml) {
 			var route = processTrkpts(xml.documentElement.getElementsByTagName("trkpt"));
@@ -77,10 +77,14 @@ $(document).ready(function() {
 				var avgFields = ["avg5k", "avg10k", "avg20k", "avg25k", "avg30k", "avg35k", "avg40k", "avgOfficial"];
 				var avgDistances = [5000, 10000, 20000, 25000, 30000, 35000, 40000, 42195];
 
+
+				var durFactor = 10;
 				svg.selectAll(".players")
 					.transition()
-					.duration(function(d, i) { return d.avgOfficial * 10; })
-					.ease("linear")
+					.duration(function(d, i) { return d.avgOfficial * durFactor; })
+					.ease(function(t) {
+						return t;
+					})
 					.attrTween("cx", function() {
 						var i = d3.interpolate(0, pathLength);
 						return function(t) {
