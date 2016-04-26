@@ -8,7 +8,7 @@ $(document).ready(function() {
 		marathons = {};
 
 		for (var i = 0; i < data.length; i++) {
-			console.log(data[i]); 
+			// console.log(data[i]); 
 			var found = $.inArray(data[i].state, states) > -1; 
 
 			if (!(found > 0)) {
@@ -21,7 +21,7 @@ $(document).ready(function() {
 			}
 		}
 
-		console.log(marathons);
+		// console.log(marathons);
 
 	});
 
@@ -50,10 +50,10 @@ $(document).ready(function() {
 
 		d3.xml("data/marathon_route.gpx", "application/xml", function(xml) {
 			var route = processTrkpts(xml.documentElement.getElementsByTagName("trkpt"));
-			console.log(route);
+			// console.log(route);
 
 			var params = mapParams(route.geometry.coordinates);
-			console.log(params);
+			// console.log(params);
 
 			// INITIALIZE MAP
 			var po = org.polymaps;
@@ -81,7 +81,7 @@ $(document).ready(function() {
 
 			// INITIALIZE PLAYERS
 			d3.json("data/average_splits_by_state.json", function(json) {
-				console.log(json);
+				// console.log(json);
 				var path = $("#path")[0];
 				var pathLength = path.getTotalLength();
 				var marathonLength = 42195; // length of marathon
@@ -164,6 +164,7 @@ $(document).ready(function() {
 						if (numDone >= json.length) {
 							$("#resultsDiv").show();
 							$("#mapDiv").hide();
+							$('#logo').show(); 
 							$('#localMarathon').text(marathons[state][0][0]); 
 							$('#localMarathon').attr("href", marathons[state][0][1]);
 						}

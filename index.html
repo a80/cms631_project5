@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="polymaps.min.js"></script>
@@ -32,9 +33,10 @@
 
 	<div id="resultsDiv">
 		<!-- TODO: Results should be shown upon conclusion of the race. --> 
-		<h1 id="resultsHeading">Your state is doing well. Help your state do even better. Sign up for a marathon near you, and qualify for next year's Boston Marathon!</h1> 
-		<p id="resultsText">Here's the name of a local marathon.</p>
-		<a id="localMarathon" href=""></a>
+		<h2 id="resultsHeading">Your state is doing <span style="color:#00cc00; font-size:40px">well</span>.<br> <span style="font-weight: bold">You</span> can help your state do even better. Whether you are looking for more exercise or a friendly community <i class="fa fa-users" aria-hidden="true"></i> to join, marathon running is a tremendous personal acheivement <i class="fa fa-trophy" aria-hidden="true"></i>. The Boston Marathon is regarded as <a href="http://www.runtri.com/2010/08/toughesteasiest-marathon-average-finish.html">the toughest marathon in the world</a> and you must qualify by running in certified courses around the country.</h2> 
+		<br>
+		<p id="resultsText">To get you started on your journey we have found the closest upcoming marathon to you: <a id="localMarathon" href=""></a></p>
+		
 	</div> 
 
 </body>

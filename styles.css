@@ -18,11 +18,6 @@ p {
 	font-size: 200%;
 }
 
-a {
-	margin-left: 50px;
-	font-size: 200%;
-}
-
 #resultsDiv {
 	margin-right: 50px;
 }
@@ -34,7 +29,7 @@ a {
 
 #mainHeading {
 	font-size: 500%;
-
+	padding: 50px;
 }
 
 #formEntryHeading {
