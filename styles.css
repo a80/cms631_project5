@@ -19,14 +19,20 @@ p {
 	font-size: 200%;
 }
 
+#resultsDiv {
+	margin-right: 50px;
+}
+
 #resultsHeading {
 	color: #FFFF33;
+	padding-left: 50px;
 
 }
 
 #mainHeading {
 	font-size: 500%;
 	color: #FFFF33;
+
 }
 
 #formEntryHeading {
