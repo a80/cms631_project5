@@ -18,6 +18,11 @@ p {
 	font-size: 200%;
 }
 
+a {
+	margin-left: 50px;
+	font-size: 200%;
+}
+
 #resultsDiv {
 	margin-right: 50px;
 }

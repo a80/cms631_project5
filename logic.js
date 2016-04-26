@@ -165,7 +165,7 @@ $(document).ready(function() {
 							$("#resultsDiv").show();
 							$("#mapDiv").hide();
 							$('#localMarathon').text(marathons[state][0][0]); 
-							$('#localMarathon').href(marathons[state][0][1]);
+							$('#localMarathon').href = marathons[state][0][1];
 						}
 					});
 			});
