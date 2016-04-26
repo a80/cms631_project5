@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 	function loadMap() {
 
-		var width = 600, height = 400;
+		var width = 1200, height = 600;
 		var svg = d3.select("#mapDiv").append("svg")
 			.attr("width", width).attr("height", height)
 			.attr("id", "map");
@@ -34,8 +34,8 @@ $(document).ready(function() {
 			var map = po.map()
 				.container(document.getElementById("map"))
 				.center({lon: params[0], lat: params[1]})
-				.zoom(10.5)
-				.zoomRange([10.5, 18])
+				.zoom(11.5)
+				.zoomRange([11.5, 18])
 				.add(po.interact());
 
 			map.add(po.image()
@@ -91,6 +91,7 @@ $(document).ready(function() {
 					.domain([0, marathonLength]).range([0, pathLength]);
 
 				var durFactor = 30;
+				var numDone = 0;
 				svg.selectAll(".players")
 					.transition()
 					.duration(function(d, i) { return d.avgOfficial * durFactor;} )
@@ -123,6 +124,12 @@ $(document).ready(function() {
 
 							var point = path.getPointAtLength(distanceTravelledInSVG);
 							return "translate(" + point.x + ", " + point.y + ")";
+						}
+					}).each("end", function() {
+						numDone++; 
+						if (numDone >= json.length) {
+							$("#resultsDiv").show();
+							$("#mapDiv").hide();	
 						}
 					});
 			});
