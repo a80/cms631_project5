@@ -75,26 +75,70 @@ $(document).ready(function() {
 
 				// ANIMATE PLAYERS
 				var avgFields = ["avg5k", "avg10k", "avg20k", "avg25k", "avg30k", "avg35k", "avg40k", "avgOfficial"];
-				var avgDistances = [5000, 10000, 20000, 25000, 30000, 35000, 40000, 42195];
+				var avgDistances = [5000.0, 10000.0, 20000.0, 25000.0, 30000.0, 35000.0, 40000.0, 42195.0];
 
+				var marathonToPathScale = d3.scale.linear()
+					.domain([0, marathonLength]).range([0, pathLength]);
 
-				var durFactor = 10;
+				var durFactor = 30;
 				svg.selectAll(".players")
 					.transition()
 					.duration(function(d, i) { return d.avgOfficial * durFactor; })
-					.ease(function(t) {
-						return t;
-					})
-					.attrTween("cx", function() {
-						var i = d3.interpolate(0, pathLength);
+					.ease("linear")
+					.attrTween("cx", function(d, i, a) {
 						return function(t) {
-							return path.getPointAtLength(i(t)).x;
+							var timeElapsed = t * d.avgOfficial;
+
+							var segNum = 0;
+							for (segNum = 0; segNum < avgFields.length; segNum++) {
+								// in i-th segment right now
+								if (timeElapsed < d[avgFields[segNum]]) {
+									break;
+								}
+							}
+
+							if (segNum == avgDistances.length) {
+								return path.getPointAtLength(pathLength).x;
+							}
+
+							var segmentLength = avgDistances[segNum] - (segNum == 0 ? 0 : avgDistances[segNum-1]);
+							var totalTimeOnSegment = d[avgFields[segNum]] - (segNum == 0 ? 0 : d[avgFields[segNum-1]]);
+
+							var timeOnSegmentSoFar = timeElapsed - (segNum == 0 ? 0 : d[avgFields[segNum-1]]);
+							var segmentLengthTravelled = (timeOnSegmentSoFar / totalTimeOnSegment) * segmentLength;
+
+							var totalDistanceTravelled = (segNum == 0 ? 0 : avgDistances[segNum-1]) + segmentLengthTravelled;
+							var distanceTravelledInSVG = marathonToPathScale(totalDistanceTravelled);
+
+							return path.getPointAtLength(distanceTravelledInSVG).x;
 						}
 					})
-					.attrTween("cy", function() {
-						var i = d3.interpolate(0, pathLength);
+					.attrTween("cy", function(d, i, a) {
 						return function(t) {
-							return path.getPointAtLength(i(t)).y;
+							var timeElapsed = t * d.avgOfficial;
+
+							var segNum = 0;
+							for (segNum = 0; segNum < avgFields.length; segNum++) {
+								// in i-th segment right now
+								if (timeElapsed < d[avgFields[segNum]]) {
+									break;
+								}
+							}
+
+							if (segNum == avgDistances.length) {
+								return path.getPointAtLength(pathLength).y;
+							}
+
+							var segmentLength = avgDistances[segNum] - (segNum == 0 ? 0 : avgDistances[segNum-1]);
+							var totalTimeOnSegment = d[avgFields[segNum]] - (segNum == 0 ? 0 : d[avgFields[segNum-1]]);
+
+							var timeOnSegmentSoFar = timeElapsed - (segNum == 0 ? 0 : d[avgFields[segNum-1]]);
+							var segmentLengthTravelled = (timeOnSegmentSoFar / totalTimeOnSegment) * segmentLength;
+
+							var totalDistanceTravelled = (segNum == 0 ? 0 : avgDistances[segNum-1]) + segmentLengthTravelled;
+							var distanceTravelledInSVG = marathonToPathScale(totalDistanceTravelled);
+
+							return path.getPointAtLength(distanceTravelledInSVG).y;						
 						}
 					});
 
