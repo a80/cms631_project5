@@ -29,7 +29,6 @@ $(document).ready(function() {
 	$('#resultsDiv').hide(); 
 
 	$('#submitStateButton').click(function() {
-		var state = $('#stateFormField').val(); 
 		$('#formEntryDiv').hide(); 
 		$('#logo').hide(); 
 		$('#mapDiv').show({ done: loadMap });
@@ -38,6 +37,9 @@ $(document).ready(function() {
 	// loadMap();
 
 	function loadMap() {
+
+		// STATE CHOSEN
+		var state = $('#stateFormField').val(); 
 
 		var width = 1200, height = 600;
 		var svg = d3.select("#mapDiv").append("svg")
@@ -88,24 +90,32 @@ $(document).ready(function() {
 					.data(json).enter()
 					.append("g")
 					.attr("class", "players")
+					.attr("id", function(d) {
+						if (d.state.toLowerCase() == state.trim().toLowerCase()) {
+							return "chosen-state";
+						}
+						return "";
+					})
 					.attr("transform", function(d) {
 						var point = path.getPointAtLength(0);
 						return "translate(" + point.x + ", " + point.y + ")";
 					});
 
 				group.append("circle")
-					.attr("r", 20)
+					.attr("r", function(d) {
+						if (d.state.toLowerCase() == state.trim().toLowerCase()) {
+							return 30;
+						}
+						return 15;
+					})
 					.style("fill", function(d, i) { return colorScale(i); })
 					.style("opacity", 1);
-					// .attr("cx", function(d) {
-					// 	return path.getPointAtLength(0).x;
-					// })
-					// .attr("cy", function(d) {
-					// 	return path.getPointAtLength(0).y;
-					// });
 				group.append("text")
 					.attr("dx", -10).attr("dy", 5)
 					.text(function(d) { return d.state; });
+
+				var node = $("#chosen-state")[0];
+				node.parentNode.appendChild(node);
 
 				// ANIMATE PLAYERS
 				var avgFields = ["avg5k", "avg10k", "avg20k", "avg25k", "avg30k", "avg35k", "avg40k", "avgOfficial"];
@@ -114,7 +124,7 @@ $(document).ready(function() {
 				var marathonToPathScale = d3.scale.linear()
 					.domain([0, marathonLength]).range([0, pathLength]);
 
-				var durFactor = 30;
+				var durFactor = 100;
 				var numDone = 0;
 				svg.selectAll(".players")
 					.transition()
