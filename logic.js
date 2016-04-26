@@ -13,10 +13,10 @@ $(document).ready(function() {
 
 			if (!(found > 0)) {
 				states.push(data[i].state);
-				marathons[data[i].state] = [data[i].name]; 
+				marathons[data[i].state] = [[data[i].name, data[i].race_link]]; 
 				
 			} else {
-				marathons[data[i].state].push(data[i].name); 
+				marathons[data[i].state].push([data[i].name, data[i].race_link]); 
 				//marathons[data[i].state] = [[data[i].name, data[i].race_link]]; 
 			}
 		}
@@ -124,7 +124,7 @@ $(document).ready(function() {
 				var marathonToPathScale = d3.scale.linear()
 					.domain([0, marathonLength]).range([0, pathLength]);
 
-				var durFactor = 100;
+				var durFactor = 10;
 				var numDone = 0;
 				svg.selectAll(".players")
 					.transition()
@@ -163,7 +163,9 @@ $(document).ready(function() {
 						numDone++; 
 						if (numDone >= json.length) {
 							$("#resultsDiv").show();
-							$("#mapDiv").hide();	
+							$("#mapDiv").hide();
+							$('#localMarathon').text(marathons[state][0][0]); 
+							$('#localMarathonURL').text(marathons[state][0][1]); 	
 						}
 					});
 			});
