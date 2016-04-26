@@ -1,6 +1,30 @@
 /* JS logic */
 
 $(document).ready(function() {
+	//parse JSON 
+	$.getJSON("marathons.json", function(data) {
+
+		states = []; 
+		marathons = {};
+
+		for (var i = 0; i < data.length; i++) {
+			console.log(data[i]); 
+			var found = $.inArray(data[i].state, states) > -1; 
+
+			if (!(found > 0)) {
+				states.push(data[i].state);
+				marathons[data[i].state] = [data[i].name]; 
+				
+			} else {
+				marathons[data[i].state].push(data[i].name); 
+				//marathons[data[i].state] = [[data[i].name, data[i].race_link]]; 
+			}
+		}
+
+		console.log(marathons);
+
+	});
+
 	$('#mapDiv').hide(); 
 	$('#resultsDiv').hide(); 
 
