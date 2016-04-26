@@ -1,0 +1,1332 @@
+[
+  {
+    "date": "Apr 30",
+    "name": "St. Jude Rock 'n' Roll Nashville Marathon",
+    "race_link": "http://www.usamarathonlist.com/country-music-marathon.php",
+    "city": "Nashville",
+    "state": "TN"
+  },
+  {
+    "date": "Apr 30",
+    "name": "Illinois Marathon",
+    "race_link": "http://www.usamarathonlist.com/illinois-marathon.php",
+    "city": "Champaign",
+    "state": "IL"
+  },
+  {
+    "date": "May 1",
+    "name": "Colorado Marathon",
+    "race_link": "http://www.usamarathonlist.com/colorado-marathon.php",
+    "city": "Fort Collins",
+    "state": "CO"
+  },
+  {
+    "date": "May 1",
+    "name": "Flying Pig Marathon",
+    "race_link": "http://www.usamarathonlist.com/flying-pig-marathon.php",
+    "city": "Cincinnati",
+    "state": "OH"
+  },
+  {
+    "date": "May 1",
+    "name": "Long Island Marathon",
+    "race_link": "http://www.usamarathonlist.com/long-island-marathon.php",
+    "city": "Long Island",
+    "state": "NY"
+  },
+  {
+    "date": "May 1",
+    "name": "OC Marathon",
+    "race_link": "http://www.usamarathonlist.com/oc-marathon.php",
+    "city": "Newport Beach",
+    "state": "CA"
+  },
+  {
+    "date": "May 1",
+    "name": "Pittsburgh Marathon",
+    "race_link": "http://www.usamarathonlist.com/pittsburgh-marathon.php",
+    "city": "Pittsburgh",
+    "state": "PA"
+  },
+  {
+    "date": "May 1",
+    "name": "Pony Express Marathon",
+    "race_link": "http://www.usamarathonlist.com/pony-express-marathon.php",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "date": "May 7",
+    "name": "Wisconsin Marathon",
+    "race_link": "http://www.usamarathonlist.com/wisconsin-marathon.php",
+    "city": "Kenosha",
+    "state": "WI"
+  },
+  {
+    "date": "May 8",
+    "name": "Kalamazoo Marathon",
+    "race_link": "http://www.usamarathonlist.com/kalamazoo-marathon.php",
+    "city": "Kalamazoo",
+    "state": "MI"
+  },
+  {
+    "date": "May 15",
+    "name": "Capital City Marathon",
+    "race_link": "http://www.usamarathonlist.com/capital-city-marathon.php",
+    "city": "Olympia",
+    "state": "WA"
+  },
+  {
+    "date": "May 15",
+    "name": "Chicagoland Spring Marathon",
+    "race_link": "http://www.usamarathonlist.com/chicagoland-spring-marathon.php",
+    "city": "Schaumburg",
+    "state": "IL"
+  },
+  {
+    "date": "May 15",
+    "name": "Cleveland Marathon",
+    "race_link": "http://www.usamarathonlist.com/cleveland-marathon.php",
+    "city": "Cleveland",
+    "state": "OH"
+  },
+  {
+    "date": "May 15",
+    "name": "Run for the Red Marathon",
+    "race_link": "http://www.usamarathonlist.com/run-for-the-red-marathon.php",
+    "city": "Monroe",
+    "state": "PA"
+  },
+  {
+    "date": "May 15",
+    "name": "Sugarloaf Marathon",
+    "race_link": "http://www.usamarathonlist.com/sugarloaf-marathon.php",
+    "city": "Eustis",
+    "state": "ME"
+  },
+  {
+    "date": "TBD",
+    "name": "Tupper Lake Marathon",
+    "race_link": "http://www.usamarathonlist.com/tupper-lake-marathon.php",
+    "city": "Tupper Lake",
+    "state": "NY"
+  },
+  {
+    "date": "NA",
+    "name": "Bob Potts Heritage Rail Trail Marathon",
+    "race_link": "http://www.usamarathonlist.com/bob-potts-marathon.php",
+    "city": "York",
+    "state": "PA"
+  },
+  {
+    "date": "May 21",
+    "name": "Fargo Marathon",
+    "race_link": "http://www.usamarathonlist.com/fargo-marathon.php",
+    "city": "Fargo",
+    "state": "ND"
+  },
+  {
+    "date": "May 22",
+    "name": "Green Bay Marathon",
+    "race_link": "http://www.usamarathonlist.com/green-bay-marathon.php",
+    "city": "Green Bay",
+    "state": "WI"
+  },
+  {
+    "date": "May 22",
+    "name": "Rockford Marathon",
+    "race_link": "http://www.usamarathonlist.com/rockford-marathon.php",
+    "city": "Rockford",
+    "state": "IL"
+  },
+  {
+    "date": "May 29",
+    "name": "Buffalo Marathon",
+    "race_link": "http://www.usamarathonlist.com/buffalo-marathon.php",
+    "city": "Buffalo",
+    "state": "NY"
+  },
+  {
+    "date": "May 29",
+    "name": "Wickham Park Marathon",
+    "race_link": "http://www.usamarathonlist.com/wickham-park-marathon.php",
+    "city": "Melbourne",
+    "state": "FL"
+  },
+  {
+    "date": "May 29",
+    "name": "Wyoming Marathon",
+    "race_link": "http://www.usamarathonlist.com/wyoming-marathon-double-marathon.php",
+    "city": "Laramie",
+    "state": "WY"
+  },
+  {
+    "date": "Jun 4",
+    "name": "God's Country Marathon",
+    "race_link": "http://www.usamarathonlist.com/gods-country-marathon.php",
+    "city": "Galeton",
+    "state": "PA"
+  },
+  {
+    "date": "Canc'd",
+    "name": "Predator Challenge Marathon",
+    "race_link": "http://www.usamarathonlist.com/predator-challenge-marathon.php",
+    "city": "Keenesburg",
+    "state": "CO"
+  },
+  {
+    "date": "Jun 5",
+    "name": "Rock 'n' Roll Marathon",
+    "race_link": "http://www.usamarathonlist.com/rock-n-roll-marathon.php",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "date": "Jun 11",
+    "name": "Boogie Marathon",
+    "race_link": "http://www.usamarathonlist.com/boogie-marathon.php",
+    "city": "Ellerbe",
+    "state": "NC"
+  },
+  {
+    "date": "Jun 11",
+    "name": "Marathon to Marathon",
+    "race_link": "http://www.usamarathonlist.com/marathon-to-marathon.php",
+    "city": "Marathon",
+    "state": "IA"
+  },
+  {
+    "date": "Jun 11",
+    "name": "Race the Lake Marathon",
+    "race_link": "http://www.usamarathonlist.com/race-the-lake-marathon.php",
+    "city": "Cooperstown",
+    "state": "NY"
+  },
+  {
+    "date": "Jun 12",
+    "name": "Lake Placid Marathon",
+    "race_link": "http://www.usamarathonlist.com/lake-placid-marathon.php",
+    "city": "Lake Placid",
+    "state": "NY"
+  },
+  {
+    "date": "TBD",
+    "name": "Chinklacamoose Marathon",
+    "race_link": "http://www.usamarathonlist.com/chinklacamoose-marathon.php",
+    "city": "Clearfield",
+    "state": "PA"
+  },
+  {
+    "date": "Jun 18",
+    "name": "Anchorage Mayor's Marathon",
+    "race_link": "http://www.usamarathonlist.com/anchorage-mayors-marathon.php",
+    "city": "Anchorage",
+    "state": "AK"
+  },
+  {
+    "date": "Jun 18",
+    "name": "Grandma's Marathon",
+    "race_link": "http://www.usamarathonlist.com/grandmas-marathon.php",
+    "city": "Duluth",
+    "state": "MN"
+  },
+  {
+    "date": "Jun 19",
+    "name": "Mohican Marathon",
+    "race_link": "http://www.usamarathonlist.com/mohican-marathon.php",
+    "city": "Loudonville",
+    "state": "OH"
+  },
+  {
+    "date": "Jun 25",
+    "name": "Charlevoix Marathon",
+    "race_link": "http://www.usamarathonlist.com/charlevoix-marathon.php",
+    "city": "Charlevoix",
+    "state": "MI"
+  },
+  {
+    "date": "Jun 26",
+    "name": "Bay of Fundy Marathon",
+    "race_link": "http://www.usamarathonlist.com/bay-of-fundy-marathon.php",
+    "city": "Lubec",
+    "state": "ME"
+  },
+  {
+    "date": "TBD",
+    "name": "Pasadena Marathon",
+    "race_link": "http://www.usamarathonlist.com/pasadena-marathon.php",
+    "city": "Pasadena",
+    "state": "CA"
+  },
+  {
+    "date": "Jul 3",
+    "name": "Angel Fire Marathon",
+    "race_link": "http://www.usamarathonlist.com/angel-fire-marathon.php",
+    "city": "Angel Fire",
+    "state": "NM"
+  },
+  {
+    "date": "Jul 3",
+    "name": "Stars and Stripes Marathon",
+    "race_link": "http://www.usamarathonlist.com/stars-stripes-marathon.php",
+    "city": "Beaverton",
+    "state": "OR"
+  },
+  {
+    "date": "Jul 10",
+    "name": "Missoula Marathon & Half Marathon",
+    "race_link": "http://www.usamarathonlist.com/missoula-marathon.php",
+    "city": "Missoula",
+    "state": "MT"
+  },
+  {
+    "date": "Jul 11",
+    "name": "Mad Marathon",
+    "race_link": "http://www.usamarathonlist.com/mad-marathon.php",
+    "city": "Waitsfield",
+    "state": "VT"
+  },
+  {
+    "date": "TBD",
+    "name": "Make it by Midnight Marathon",
+    "race_link": "http://www.usamarathonlist.com/make-it-by-midnight-marathon.php",
+    "city": "Macon",
+    "state": "GA"
+  },
+  {
+    "date": "Jul 16",
+    "name": "Aspen Valley Marathon",
+    "race_link": "http://www.usamarathonlist.com/aspen-valley-marathon.php",
+    "city": "Aspen",
+    "state": "CO"
+  },
+  {
+    "date": "Jul 16",
+    "name": "Eugene Curnow Trail Marathon",
+    "race_link": "http://www.usamarathonlist.com/eugene-curnow-marathon.php",
+    "city": "Duluth",
+    "state": "MN"
+  },
+  {
+    "date": "Jul 23",
+    "name": "Grand Island Trail Marathon",
+    "race_link": "http://www.usamarathonlist.com/grand-island-trail-marathon.php",
+    "city": "Grand Island",
+    "state": "MI"
+  },
+  {
+    "date": "Jul 23",
+    "name": "Madison Marathon",
+    "race_link": "http://www.usamarathonlist.com/madison-marathon.php",
+    "city": "Ennis",
+    "state": "MT"
+  },
+  {
+    "date": "Jul 24",
+    "name": "Big Sky Marathon",
+    "race_link": "http://www.usamarathonlist.com/big-sky-marathon.php",
+    "city": "Ennis",
+    "state": "MT"
+  },
+  {
+    "date": "Jul 30",
+    "name": "Lost Turkey Trail Marathon",
+    "race_link": "http://www.usamarathonlist.com/lost-turkey-trail-marathon.php",
+    "city": "Claysburg",
+    "state": "PA"
+  },
+  {
+    "date": "Jul 31",
+    "name": "San Francisco Marathon",
+    "race_link": "http://www.usamarathonlist.com/san-francisco-marathon.php",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "date": "Aug 6",
+    "name": "Old Farts Marathon",
+    "race_link": "http://www.usamarathonlist.com/old-farts-marathon.php",
+    "city": "Lowell",
+    "state": "MI"
+  },
+  {
+    "date": "Aug 13",
+    "name": "Badlands Trail Run Marathon",
+    "race_link": "http://www.usamarathonlist.com/badlands-marathon.php",
+    "city": "Medora",
+    "state": "ND"
+  },
+  {
+    "date": "Aug 21",
+    "name": "Moose's Tooth Marathon",
+    "race_link": "http://www.usamarathonlist.com/mooses-tooth-marathon.php",
+    "city": "Anchorage",
+    "state": "AK"
+  },
+  {
+    "date": "Aug 21",
+    "name": "Pikes Peak Marathon",
+    "race_link": "http://www.usamarathonlist.com/pikes-peak-marathon.php",
+    "city": "Manitou Springs",
+    "state": "CO"
+  },
+  {
+    "date": "Aug 27",
+    "name": "Mesa Falls Marathon",
+    "race_link": "http://www.usamarathonlist.com/mesa-falls-marathon.php",
+    "city": "Ashton",
+    "state": "ID"
+  },
+  {
+    "date": "N/A",
+    "name": "Canton Marathon",
+    "race_link": "http://www.usamarathonlist.com/canton-marathon.php",
+    "city": "Canton",
+    "state": "OH"
+  },
+  {
+    "date": "Aug 27",
+    "name": "Diablo Marathon",
+    "race_link": "http://www.usamarathonlist.com/diablo-marathon.php",
+    "city": "Clayton",
+    "state": "CA"
+  },
+  {
+    "date": "Sep 3",
+    "name": "Jackson Hole Marathon",
+    "race_link": "http://www.usamarathonlist.com/jackson-hole-marathon.php",
+    "city": "Jackson",
+    "state": "WY"
+  },
+  {
+    "date": "Sep 3",
+    "name": "Marquette Marathon",
+    "race_link": "http://www.usamarathonlist.com/marquette-marathon.php",
+    "city": "Marquette",
+    "state": "MI"
+  },
+  {
+    "date": "Sep 4",
+    "name": "Kauai Marathon",
+    "race_link": "http://www.usamarathonlist.com/kauai-marathon.php",
+    "city": "Kauai",
+    "state": "HI"
+  },
+  {
+    "date": "Sep 4",
+    "name": "Sunriver Marathon",
+    "race_link": "http://www.usamarathonlist.com/sunriver-marathon.php",
+    "city": "Sunriver Resort",
+    "state": "OR"
+  },
+  {
+    "date": "Sep 4",
+    "name": "Tupelo Marathon",
+    "race_link": "http://www.usamarathonlist.com/tupelo-marathon.php",
+    "city": "Tupelo",
+    "state": "MS"
+  },
+  {
+    "date": "Sep 10",
+    "name": "Run Woodstock Marathon",
+    "race_link": "http://www.usamarathonlist.com/run-woodstock-marathon.php",
+    "city": "Pinckney",
+    "state": "MI"
+  },
+  {
+    "date": "Sep 17",
+    "name": "Air Force Marathon",
+    "race_link": "http://www.usamarathonlist.com/air-force-marathon.php",
+    "city": "Dayton",
+    "state": "OH"
+  },
+  {
+    "date": "Sep 18",
+    "name": "Fox Cities Marathon",
+    "race_link": "http://www.usamarathonlist.com/fox-cities-marathon.php",
+    "city": "Menasha",
+    "state": "WI"
+  },
+  {
+    "date": "Sep 18",
+    "name": "Fox Valley Marathon",
+    "race_link": "http://www.usamarathonlist.com/fox-valley-marathon.php",
+    "city": "St Charles",
+    "state": "IL"
+  },
+  {
+    "date": "Sep 18",
+    "name": "Maui Marathon",
+    "race_link": "http://www.usamarathonlist.com/maui-marathon.php",
+    "city": "Maui",
+    "state": "HI"
+  },
+  {
+    "date": "Sep 18",
+    "name": "Montana Marathon",
+    "race_link": "http://www.usamarathonlist.com/montana-marathon.php",
+    "city": "Billings",
+    "state": "MT"
+  },
+  {
+    "date": "Sep 18",
+    "name": "Omaha Marathon",
+    "race_link": "http://www.usamarathonlist.com/omaha-marathon.php",
+    "city": "Omaha",
+    "state": "NE"
+  },
+  {
+    "date": "Sep 24",
+    "name": "Akron Marathon",
+    "race_link": "http://www.usamarathonlist.com/akron-marathon.php",
+    "city": "Akron",
+    "state": "OH"
+  },
+  {
+    "date": "Sep 25",
+    "name": "Quad Cities Marathon",
+    "race_link": "http://www.usamarathonlist.com/quad-cities-marathon.php",
+    "city": "Moline",
+    "state": "IL"
+  },
+  {
+    "date": "Oct 1",
+    "name": "Hamptons Marathon",
+    "race_link": "http://www.usamarathonlist.com/hamptons-marathon.php",
+    "city": "Long Island",
+    "state": "NY"
+  },
+  {
+    "date": "Oct 1",
+    "name": "YMCA Stone Bridge Marathon",
+    "race_link": "http://www.usamarathonlist.com/ymca-stone-bridge-marathon.php",
+    "city": "Belvidere",
+    "state": "IL"
+  },
+  {
+    "date": "Oct 2",
+    "name": "MO Cowbell Marathon",
+    "race_link": "http://www.usamarathonlist.com/mo-cowbell-marathon.php",
+    "city": "St Charles",
+    "state": "MO"
+  },
+  {
+    "date": "Oct 2",
+    "name": "Wineglass Marathon",
+    "race_link": "http://www.usamarathonlist.com/wineglass-marathon.php",
+    "city": "Corning",
+    "state": "NY"
+  },
+  {
+    "date": "Oct 8",
+    "name": "Eversource Hartford Marathon",
+    "race_link": "http://www.usamarathonlist.com/hartford-marathon.php",
+    "city": "Hartford",
+    "state": "CT"
+  },
+  {
+    "date": "Oct 8",
+    "name": "Southernmost Marathon",
+    "race_link": "http://www.usamarathonlist.com/southernmost-marathon.php",
+    "city": "Key West",
+    "state": "FL"
+  },
+  {
+    "date": "Oct 9",
+    "name": "Chicago Marathon",
+    "race_link": "http://www.usamarathonlist.com/chicago-marathon.php",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "date": "Oct 9",
+    "name": "Empire State Marathon",
+    "race_link": "http://www.usamarathonlist.com/empire-state-marathon.php",
+    "city": "Syracuse",
+    "state": "NY"
+  },
+  {
+    "date": "Oct 9",
+    "name": "Long Beach Marathon",
+    "race_link": "http://www.usamarathonlist.com/long-beach-marathon.php",
+    "city": "Long Beach",
+    "state": "CA"
+  },
+  {
+    "date": "Oct 9",
+    "name": "Newport Marathon",
+    "race_link": "http://www.usamarathonlist.com/newport-marathon.php",
+    "city": "Newport",
+    "state": "RI"
+  },
+  {
+    "date": "Oct 9",
+    "name": "Portland Marathon",
+    "race_link": "http://www.usamarathonlist.com/portland-marathon.php",
+    "city": "Portland",
+    "state": "OR"
+  },
+  {
+    "date": "Oct 9",
+    "name": "Prairie Fire Wichita Marathon",
+    "race_link": "http://www.usamarathonlist.com/prairie-fire-wichita-marathon.php",
+    "city": "Wichita",
+    "state": "KS"
+  },
+  {
+    "date": "Oct 9",
+    "name": "Twin Cities Marathon",
+    "race_link": "http://www.usamarathonlist.com/twin-cities-marathon.php",
+    "city": "St. Paul",
+    "state": "MN"
+  },
+  {
+    "date": "Oct 9",
+    "name": "Steamtown Marathon",
+    "race_link": "http://www.usamarathonlist.com/steamtown-marathon.php",
+    "city": "Scranton",
+    "state": "PA"
+  },
+  {
+    "date": "Oct 15",
+    "name": "Baltimore Marathon",
+    "race_link": "http://www.usamarathonlist.com/baltimore-marathon.php",
+    "city": "Baltimore",
+    "state": "MD"
+  },
+  {
+    "date": "Oct 16",
+    "name": "Baystate Marathon",
+    "race_link": "http://www.usamarathonlist.com/baystate-marathon.php",
+    "city": "Lowell",
+    "state": "MA"
+  },
+  {
+    "date": "Oct 16",
+    "name": "Run River City Marathon",
+    "race_link": "http://www.usamarathonlist.com/run-river-city-marathon.php",
+    "city": "Peoria",
+    "state": "IL"
+  },
+  {
+    "date": "Oct 16",
+    "name": "Columbus Marathon",
+    "race_link": "http://www.usamarathonlist.com/columbus-marathon.php",
+    "city": "Columbus",
+    "state": "OH"
+  },
+  {
+    "date": "TBD",
+    "name": "Yonkers Marathon",
+    "race_link": "http://www.usamarathonlist.com/yonkers-marathon.php",
+    "city": "Yonkers",
+    "state": "NY"
+  },
+  {
+    "date": "Oct 22",
+    "name": "Monster Mash Marathon",
+    "race_link": "http://www.usamarathonlist.com/monster-mash-marathon.php",
+    "city": "Dover",
+    "state": "DE"
+  },
+  {
+    "date": "Oct 23",
+    "name": "Naperville Marathon",
+    "race_link": "http://www.usamarathonlist.com/naperville-marathon.php",
+    "city": "Naperville",
+    "state": "IL"
+  },
+  {
+    "date": "Oct 24",
+    "name": "Atlanta Thanksgiving Half Marathon",
+    "race_link": "http://www.usamarathonlist.com/atlanta-marathon.php",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "date": "Oct 29",
+    "name": "Screaming Pumpkin Marathon",
+    "race_link": "http://www.usamarathonlist.com/screaming-pumpkin-marathon.php",
+    "city": "Peoria",
+    "state": "IL"
+  },
+  {
+    "date": "Oct 29",
+    "name": "Silver Comet Half Marathon",
+    "race_link": "http://www.usamarathonlist.com/silver-comet-half-marathon.php",
+    "city": "Mableton",
+    "state": "GA"
+  },
+  {
+    "date": "Oct 29",
+    "name": "Silver Comet Marathon",
+    "race_link": "http://www.usamarathonlist.com/silver-comet-marathon.php",
+    "city": "Mableton",
+    "state": "GA"
+  },
+  {
+    "date": "Oct 30",
+    "name": "Marine Corps Marathon",
+    "race_link": "http://www.usamarathonlist.com/marine-corps-marathon.php",
+    "city": "Arlington",
+    "state": "VA"
+  },
+  {
+    "date": "N/A",
+    "name": "Silicon Valley Marathon",
+    "race_link": "http://www.usamarathonlist.com/silicon-valley-marathon.php",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "date": "TBD",
+    "name": "Spinx Run Fest Marathon",
+    "race_link": "http://www.usamarathonlist.com/run-fest-marathon.php",
+    "city": "Greenville",
+    "state": "SC"
+  },
+  {
+    "date": "Nov 5",
+    "name": "Indianapolis Monumental Marathon",
+    "race_link": "http://www.usamarathonlist.com/indianapolis-monumental-marathon.php",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  {
+    "date": "Nov 5",
+    "name": "Savannah Marathon",
+    "race_link": "http://www.usamarathonlist.com/savannah-marathon.php",
+    "city": "Savannah",
+    "state": "GA"
+  },
+  {
+    "date": "Nov 6",
+    "name": "Bowling Green Marathon",
+    "race_link": "http://www.usamarathonlist.com/bowling-green-marathon.php",
+    "city": "Bowling Green",
+    "state": "KY"
+  },
+  {
+    "date": "Nov 6",
+    "name": "New York City Marathon",
+    "race_link": "http://www.usamarathonlist.com/ing-new-york-marathon.php",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "date": "Nov 6",
+    "name": "Santa Clarita Marathon",
+    "race_link": "http://www.usamarathonlist.com/santa-clarita-marathon.php",
+    "city": "Santa Clarita",
+    "state": "CA"
+  },
+  {
+    "date": "Nov 12",
+    "name": "Charlotte Marathon",
+    "race_link": "http://www.usamarathonlist.com/thunder-road-marathon.php",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "date": "Nov 12",
+    "name": "Chickamauga Battlefield Marathon",
+    "race_link": "http://www.usamarathonlist.com/chickamauga-battlefield-marathon.php",
+    "city": "Chickamauga",
+    "state": "GA"
+  },
+  {
+    "date": "Nov 12",
+    "name": "Anthem Richmond Marathon",
+    "race_link": "http://www.usamarathonlist.com/richmond-marathon.php",
+    "city": "Richmond",
+    "state": "VA"
+  },
+  {
+    "date": "Nov 12",
+    "name": "Soldier Marathon",
+    "race_link": "http://www.usamarathonlist.com/soldier-marathon.php",
+    "city": "Columbus",
+    "state": "GA"
+  },
+  {
+    "date": "Nov 13",
+    "name": "Outer Banks Marathon",
+    "race_link": "http://www.usamarathonlist.com/outer-banks-marathon.php",
+    "city": "Kitty Hawk",
+    "state": "NC"
+  },
+  {
+    "date": "Nov 13",
+    "name": "Harrisburg Marathon",
+    "race_link": "http://www.usamarathonlist.com/harrisburg-marathon.php",
+    "city": "Harrisburg",
+    "state": "PA"
+  },
+  {
+    "date": "Nov 13",
+    "name": "Pensacola Marathon",
+    "race_link": "http://www.usamarathonlist.com/pensacola-marathon.php",
+    "city": "Pensacola",
+    "state": "FL"
+  },
+  {
+    "date": "TBD",
+    "name": "Brooklyn Marathon",
+    "race_link": "http://www.usamarathonlist.com/brooklyn-marathon.php",
+    "city": "Brooklyn",
+    "state": "NY"
+  },
+  {
+    "date": "Nov 13",
+    "name": "Rock 'n' Roll Las Vegas Marathon",
+    "race_link": "http://www.usamarathonlist.com/las-vegas-marathon.php",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "date": "Nov 20",
+    "name": "Route 66 Marathon",
+    "race_link": "http://www.usamarathonlist.com/route-66-marathon.php",
+    "city": "Tulsa",
+    "state": "OK"
+  },
+  {
+    "date": "Nov 20",
+    "name": "Philadelphia Marathon",
+    "race_link": "http://www.usamarathonlist.com/philadelphia-marathon.php",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  {
+    "date": "Nov 26",
+    "name": "Mississippi Coast Marathon",
+    "race_link": "http://www.usamarathonlist.com/mississippi-coast-marathon.php",
+    "city": "Waveland",
+    "state": "MS"
+  },
+  {
+    "date": "Nov 27",
+    "name": "Seattle Marathon",
+    "race_link": "http://www.usamarathonlist.com/seattle-marathon.php",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  {
+    "date": "Nov 27",
+    "name": "Space Coast Marathon",
+    "race_link": "http://www.usamarathonlist.com/space-coast-marathon.php",
+    "city": "Cocoa Beach",
+    "state": "FL"
+  },
+  {
+    "date": "TBD",
+    "name": "Death Valley Trail Marathon",
+    "race_link": "http://www.usamarathonlist.com/death-valley-trail-marathon.php",
+    "city": "Death Valley",
+    "state": "CA"
+  },
+  {
+    "date": "Dec 3",
+    "name": "Memphis Marathon",
+    "race_link": "http://www.usamarathonlist.com/memphis-marathon.php",
+    "city": "Memphis",
+    "state": "TN"
+  },
+  {
+    "date": "Dec 4",
+    "name": "California International Marathon",
+    "race_link": "http://www.usamarathonlist.com/california-international-marathon.php",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "date": "Dec 4",
+    "name": "Palm Beaches Marathon",
+    "race_link": "http://www.usamarathonlist.com/palm-beaches-marathon.php",
+    "city": "Palm Beach",
+    "state": "FL"
+  },
+  {
+    "date": "Dec 4",
+    "name": "San Antonio Marathon",
+    "race_link": "http://www.usamarathonlist.com/san-antonio-marathon.php",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "date": "Dec 10",
+    "name": "Tucson Marathon",
+    "race_link": "http://www.usamarathonlist.com/tucson-marathon.php",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "date": "Dec 10",
+    "name": "Hoover Dam Marathon",
+    "race_link": "http://www.usamarathonlist.com/hoover-dam-marathon.php",
+    "city": "Boulder City",
+    "state": "NV"
+  },
+  {
+    "date": "Dec 10",
+    "name": "Kiawah Island Marathon",
+    "race_link": "http://www.usamarathonlist.com/kiawah-island-marathon.php",
+    "city": "Kiawah Island",
+    "state": "SC"
+  },
+  {
+    "date": "Dec 10",
+    "name": "Rocket City Marathon",
+    "race_link": "http://www.usamarathonlist.com/rocket-city-marathon.php",
+    "city": "Hunstville",
+    "state": "AL"
+  },
+  {
+    "date": "Dec 11",
+    "name": "Honolulu Marathon",
+    "race_link": "http://www.usamarathonlist.com/honolulu-marathon.php",
+    "city": "Honolulu",
+    "state": "HI"
+  },
+  {
+    "date": "Dec 11",
+    "name": "Dallas Marathon",
+    "race_link": "http://www.usamarathonlist.com/dallas-marathon.php",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "date": "TBD",
+    "name": "Willow Winter Solstice Marathon",
+    "race_link": "http://www.usamarathonlist.com/willow-winter-solstice-marathon.php",
+    "city": "Willow",
+    "state": "AK"
+  },
+  {
+    "date": "TBD",
+    "name": "Yukon Do It Marathon",
+    "race_link": "http://www.usamarathonlist.com/yukon-do-it-marathon.php",
+    "city": "Port Orchard",
+    "state": "WA"
+  },
+  {
+    "date": "Jan 1",
+    "name": "Texas Marathon",
+    "race_link": "http://www.usamarathonlist.com/texas-marathon.php",
+    "city": "Kingwood",
+    "state": "TX"
+  },
+  {
+    "date": "TBD",
+    "name": "Jacksonville Marathon",
+    "race_link": "http://www.usamarathonlist.com/jacksonville-marathon.php",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "date": "Jan 7",
+    "name": "Mississippi Blues Marathon",
+    "race_link": "http://www.usamarathonlist.com/mississippi-blues-marathon.php",
+    "city": "Jackson",
+    "state": "MS"
+  },
+  {
+    "date": "Jan 8",
+    "name": "Camarillo Marathon",
+    "race_link": "http://www.usamarathonlist.com/camarillo-marathon.php",
+    "city": "Camarillo",
+    "state": "CA"
+  },
+  {
+    "date": "N/A",
+    "name": "Running from an Angel Marathon",
+    "race_link": "http://www.usamarathonlist.com/running-angel-marathon.php",
+    "city": "Boulder City",
+    "state": "NV"
+  },
+  {
+    "date": "Jan 8",
+    "name": "Disney World Marathon",
+    "race_link": "http://www.usamarathonlist.com/disney-world-marathon.php",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "date": "TBD",
+    "name": "First Light Marathon",
+    "race_link": "http://www.usamarathonlist.com/first-light-marathon.php",
+    "city": "Mobile",
+    "state": "AL"
+  },
+  {
+    "date": "Jan 14",
+    "name": "Charleston Marathon",
+    "race_link": "http://www.usamarathonlist.com/charleston-marathon.php",
+    "city": "Charleston",
+    "state": "SC"
+  },
+  {
+    "date": "TBD",
+    "name": "Museum of Aviation Foundation Marathon",
+    "race_link": "http://www.usamarathonlist.com/museum-of-aviation-foundation-marathon.php",
+    "city": "Robins AFB",
+    "state": "GA"
+  },
+  {
+    "date": "Jan 15",
+    "name": "Houston Marathon",
+    "race_link": "http://www.usamarathonlist.com/houston-marathon.php",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "date": "Jan 15",
+    "name": "Star Wars Half Marathon",
+    "race_link": "http://www.usamarathonlist.com/star-wars-half-marathon.php",
+    "city": "Anaheim",
+    "state": "CA"
+  },
+  {
+    "date": "Jan 29",
+    "name": "Miami Marathon",
+    "race_link": "http://www.usamarathonlist.com/ing-miami-marathon.php",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "date": "TBD",
+    "name": "Callaway Gardens Marathon",
+    "race_link": "http://www.usamarathonlist.com/callaway-gardens-marathon.php",
+    "city": "Pine Mountain",
+    "state": "GA"
+  },
+  {
+    "date": "TBD",
+    "name": "Miracle Match Marathon",
+    "race_link": "http://www.usamarathonlist.com/miracle-match-marathon.php",
+    "city": "Waco",
+    "state": "TX"
+  },
+  {
+    "date": "Feb 4",
+    "name": "Groundhog Marathon",
+    "race_link": "http://www.usamarathonlist.com/groundhog-marathon.php",
+    "city": "Grand Rapids",
+    "state": "MI"
+  },
+  {
+    "date": "TBD",
+    "name": "Golden Gate Trail Marathon",
+    "race_link": "http://www.usamarathonlist.com/golden-gate-trail-marathon.php",
+    "city": "Sausalito",
+    "state": "CA"
+  },
+  {
+    "date": "Feb 4",
+    "name": "Surfside Beach Marathon",
+    "race_link": "http://www.usamarathonlist.com/surfside-beach-marathon.php",
+    "city": "Surfside",
+    "state": "TX"
+  },
+  {
+    "date": "TBD",
+    "name": "Melbourne Music Marathon",
+    "race_link": "http://www.usamarathonlist.com/melbourne-music-marathon.php",
+    "city": "Melbourne",
+    "state": "FL"
+  },
+  {
+    "date": "Feb 5",
+    "name": "New Orleans Mardi Gras Marathon",
+    "race_link": "http://www.usamarathonlist.com/new-orleans-mardi-gras-marathon.php",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "date": "TBD",
+    "name": "Tallahassee Marathon",
+    "race_link": "http://www.usamarathonlist.com/tallahassee-marathon.php",
+    "city": "Tallahassee",
+    "state": "FL"
+  },
+  {
+    "date": "TBD",
+    "name": "Hilton Head Island Marathon",
+    "race_link": "http://www.usamarathonlist.com/hilton-head-island-marathon.php",
+    "city": "Hilton Head",
+    "state": "SC"
+  },
+  {
+    "date": "TBD",
+    "name": "Mississippi River Marathon",
+    "race_link": "http://www.usamarathonlist.com/mississippi-river-marathon.php",
+    "city": "Greenville",
+    "state": "MS"
+  },
+  {
+    "date": "TBD",
+    "name": "26.2 with Donna Marathon",
+    "race_link": "http://www.usamarathonlist.com/262-with-donna-marathon.php",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "date": "Feb 19",
+    "name": "Austin Marathon",
+    "race_link": "http://www.usamarathonlist.com/austin-marathon.php",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "date": "TBD",
+    "name": "Los Angeles Marathon",
+    "race_link": "http://www.usamarathonlist.com/los-angeles-marathon.php",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "date": "TBD",
+    "name": "Five Points of Life Marathon",
+    "race_link": "http://www.usamarathonlist.com/five-points-of-life-marathon.php",
+    "city": "Gainesville",
+    "state": "FL"
+  },
+  {
+    "date": "TBD",
+    "name": "Gasparilla Half Marathon",
+    "race_link": "http://www.usamarathonlist.com/gasparilla-marathon.php",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "date": "TBD",
+    "name": "Last Chance for Boston Marathon",
+    "race_link": "http://www.usamarathonlist.com/last-chance-for-boston-marathon.php",
+    "city": "Dublin",
+    "state": "OH"
+  },
+  {
+    "date": "Feb 25",
+    "name": "Phoenix Marathon",
+    "race_link": "http://www.usamarathonlist.com/phoenix-marathon.php",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "date": "TBD",
+    "name": "Cowtown Marathon",
+    "race_link": "http://www.usamarathonlist.com/cowtown-marathon.php",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "date": "Mar 4",
+    "name": "Myrtle Beach Marathon",
+    "race_link": "http://www.usamarathonlist.com/myrtle-beach-marathon.php",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "date": "TBD",
+    "name": "Albany Marathon",
+    "race_link": "http://www.usamarathonlist.com/snickers-marathon.php",
+    "city": "Albany",
+    "state": "GA"
+  },
+  {
+    "date": "TBD",
+    "name": "Army Marathon",
+    "race_link": "http://www.usamarathonlist.com/army-marathon.php",
+    "city": "Killeen",
+    "state": "TX"
+  },
+  {
+    "date": "TBD",
+    "name": "Little Rock Marathon",
+    "race_link": "http://www.usamarathonlist.com/little-rock-marathon.php",
+    "city": "Little Rock",
+    "state": "AR"
+  },
+  {
+    "date": "TBD",
+    "name": "Napa Valley Marathon",
+    "race_link": "http://www.usamarathonlist.com/napa-valley-marathon.php",
+    "city": "Napa",
+    "state": "CA"
+  },
+  {
+    "date": "TBD",
+    "name": "March Madness Marathon",
+    "race_link": "http://www.usamarathonlist.com/march-madness-marathon.php",
+    "city": "Elma",
+    "state": "WA"
+  },
+  {
+    "date": "TBD",
+    "name": "A Run Through Time",
+    "race_link": "http://www.usamarathonlist.com/run-through-time-marathon.php",
+    "city": "Salida",
+    "state": "CO"
+  },
+  {
+    "date": "TBD",
+    "name": "Asheville Marathon",
+    "race_link": "http://www.usamarathonlist.com/asheville-marathon.php",
+    "city": "Asheville",
+    "state": "NC"
+  },
+  {
+    "date": "TBD",
+    "name": "Georgia Marathon",
+    "race_link": "http://www.usamarathonlist.com/georgia-marathon.php",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "date": "TBD",
+    "name": "Shamrock Marathon",
+    "race_link": "http://www.usamarathonlist.com/shamrock-marathon.php",
+    "city": "Virginia Beach",
+    "state": "VA"
+  },
+  {
+    "date": "TBD",
+    "name": "Wrightsville Beach Marathon",
+    "race_link": "http://www.usamarathonlist.com/wrightsville-beach-marathon.php",
+    "city": "Wrightsville Beach",
+    "state": "NC"
+  },
+  {
+    "date": "TBD",
+    "name": "Tomoka Marathon",
+    "race_link": "http://www.usamarathonlist.com/tomoka-marathon.php",
+    "city": "Ormond Beach",
+    "state": "FL"
+  },
+  {
+    "date": "TBD",
+    "name": "Washington Easter Marathon",
+    "race_link": "http://www.usamarathonlist.com/washington-easter-marathon.php",
+    "city": "Olympia",
+    "state": "WA"
+  },
+  {
+    "date": "Apr 2",
+    "name": "Big D Texas Marathon",
+    "race_link": "http://www.usamarathonlist.com/big-d-texas-marathon.php",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "date": "TBD",
+    "name": "North Shore Marathon",
+    "race_link": "http://www.usamarathonlist.com/north-shore-marathon.php",
+    "city": "Oahu",
+    "state": "HI"
+  },
+  {
+    "date": "TBD",
+    "name": "Moses Lake Marathon",
+    "race_link": "http://www.usamarathonlist.com/moses-lake-marathon.php",
+    "city": "Moses Lake",
+    "state": "WA"
+  },
+  {
+    "date": "TBD",
+    "name": "Covenant Health Knoxville Marathon",
+    "race_link": "http://www.usamarathonlist.com/knoxville-marathon.php",
+    "city": "Knoxville",
+    "state": "TN"
+  },
+  {
+    "date": "TBC",
+    "name": "Eisenhower Marathon",
+    "race_link": "http://www.usamarathonlist.com/eisenhower-marathon.php",
+    "city": "Abilene",
+    "state": "KS"
+  },
+  {
+    "date": "Apr 8",
+    "name": "Garden Spot Village Marathon",
+    "race_link": "http://www.usamarathonlist.com/garden-spot-village-marathon.php",
+    "city": "New Holland",
+    "state": "PA"
+  },
+  {
+    "date": "TBC",
+    "name": "Irving Marathon",
+    "race_link": "http://www.usamarathonlist.com/irving-las-colinas-marathon.php",
+    "city": "Irving",
+    "state": "TX"
+  },
+  {
+    "date": "Apr 17",
+    "name": "Boston Marathon",
+    "race_link": "http://www.usamarathonlist.com/boston-marathon.php",
+    "city": "Boston",
+    "state": "MA"
+  },
+  {
+    "date": "Apr 22",
+    "name": "Olathe Marathon",
+    "race_link": "http://www.usamarathonlist.com/olathe-marathon.php",
+    "city": "Olathe",
+    "state": "KS"
+  },
+  {
+    "date": "TBD",
+    "name": "Whidbey Island Marathon",
+    "race_link": "http://www.usamarathonlist.com/whidbey-island-marathon.php",
+    "city": "Oak Harbor",
+    "state": "WA"
+  },
+  {
+    "date": "TBD",
+    "name": "Star Wars Half Marathon - The Dark Side",
+    "race_link": "http://www.usamarathonlist.com/star-wars-the-dark-side-half-marathon.php",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "date": "TBD",
+    "name": "Kings Mountain Marathon",
+    "race_link": "http://www.usamarathonlist.com/kings-mountain-marathon.php",
+    "city": "Clover",
+    "state": "SC"
+  },
+  {
+    "date": "TBD",
+    "name": "Big Sur International Marathon",
+    "race_link": "http://www.usamarathonlist.com/big-sur-international-marathon.php",
+    "city": "Carmel",
+    "state": "CA"
+  },
+  {
+    "date": "Apr 22",
+    "name": "Glass City Marathon",
+    "race_link": "http://www.usamarathonlist.com/glass-city-marathon.php",
+    "city": "Toledo",
+    "state": "OH"
+  },
+  {
+    "date": "TBD",
+    "name": "Gettysburg North South Marathon",
+    "race_link": "http://www.usamarathonlist.com/gettysburg-marathon.php",
+    "city": "Gettysburg",
+    "state": "PA"
+  },
+  {
+    "date": "TBD",
+    "name": "Oklahoma City Marathon",
+    "race_link": "http://www.usamarathonlist.com/oklahoma-city-marathon.php",
+    "city": "Oklahoma City",
+    "state": "OK"
+  },
+  {
+    "date": "TBD",
+    "name": "New Jersey Marathon",
+    "race_link": "http://www.usamarathonlist.com/new-jersey-marathon.php",
+    "city": "Long Branch",
+    "state": "NJ"
+  }
+]
