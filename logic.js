@@ -46,7 +46,7 @@ $(document).ready(function() {
 			.attr("width", width).attr("height", height)
 			.attr("id", "map");
 
-		var colorScale = d3.scale.category20c();
+		var colorScale = d3.scale.category20();
 
 		d3.xml("data/marathon_route.gpx", "application/xml", function(xml) {
 			var route = processTrkpts(xml.documentElement.getElementsByTagName("trkpt"));
