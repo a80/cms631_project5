@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 	//parse JSON 
-	$.getJSON("marathons.json", function(data) {
+	$.getJSON("marathons2.json", function(data) {
 
 		states = []; 
 		marathons = {};
@@ -124,7 +124,7 @@ $(document).ready(function() {
 				var marathonToPathScale = d3.scale.linear()
 					.domain([0, marathonLength]).range([0, pathLength]);
 
-				var durFactor = 10;
+				var durFactor = 100;
 				var numDone = 0;
 				svg.selectAll(".players")
 					.transition()

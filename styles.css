@@ -15,6 +15,13 @@ button {
 
 p {
 	margin-left: 50px;
+	color: #FFFF33;
+	font-size: 200%;
+}
+
+#resultsHeading {
+	color: #FFFF33;
+
 }
 
 #mainHeading {
