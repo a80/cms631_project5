@@ -15,7 +15,6 @@ button {
 
 p {
 	margin-left: 50px;
-	color: #FFFF33;
 	font-size: 200%;
 }
 
@@ -24,19 +23,16 @@ p {
 }
 
 #resultsHeading {
-	color: #FFFF33;
 	padding-left: 50px;
 
 }
 
 #mainHeading {
 	font-size: 500%;
-	color: #FFFF33;
 
 }
 
 #formEntryHeading {
-	color: #FFFF33;
 }
 
 #logo {
@@ -50,7 +46,8 @@ p {
 }
 
 body {
-	background: #0066CC;
+	background: rgb(4,17,151);
+	color: rgb(237,198,47);
 }
 
 /* for the map */
