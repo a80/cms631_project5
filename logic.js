@@ -124,7 +124,7 @@ $(document).ready(function() {
 				var marathonToPathScale = d3.scale.linear()
 					.domain([0, marathonLength]).range([0, pathLength]);
 
-				var durFactor = 10;
+				var durFactor = 100;
 				var numDone = 0;
 				svg.selectAll(".players")
 					.transition()
